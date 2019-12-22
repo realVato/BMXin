@@ -36,6 +36,11 @@
     z-index: 15;
 }
 
+.slides li .caption .btn {
+    margin-top: 2rem;
+    min-width: 200px;
+}
+
 @media screen and (max-width: 600px) {
     .slides li .caption {
         text-align: center !important;
@@ -44,6 +49,10 @@
 
     .slides li .caption h3 {
         font-size: 4rem;
+    }
+
+    .slides li .caption .btn {
+        float: none !important; 
     }
 }
  
@@ -55,15 +64,4 @@
     border-radius: 5px;
     width: 90%;
     margin-top: 1rem;
-}
-
-.section-search .input-field button {
-    display: block;
-    height: 60%;
-    width: 5%;
-    position: absolute;
-    content: '';
-    top: 50%;
-    right: 50px;
-    transform: translateY(-50%);
 }
