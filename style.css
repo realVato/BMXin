@@ -1,0 +1,17 @@
+/* NAVBAR */
+
+/* Thick marker font for [BMX]in */
+.navbar-wrapper .brand-logo .marker-font {
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Lesser marker font for BMX[in] */
+.navbar-wrapper .brand-logo {
+    font-family: 'Caveat', cursive;
+}
+
+/* Override inline-css and disable overlay for main navbar/sidebar */
+.sidenav-overlay {
+    z-index: 995;
+    opacity: 0.4 !important;
+}
