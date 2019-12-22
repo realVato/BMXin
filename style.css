@@ -15,3 +15,39 @@
     z-index: 995;
     opacity: 0.4 !important;
 }
+
+/* Slider */
+
+/* Darker overlay for images */
+.slides li .img-overlay {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #131729;
+    opacity: 0.6;
+    z-index: 10;
+}
+
+.slides li .caption {
+    z-index: 15;
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+        height: 100vh !important;
+    }
+
+    .slides li .caption {
+        text-align: center !important;
+        margin-top: 4rem;
+    }
+
+    .slides li .caption h3 {
+        font-size: 4rem;
+    }
+}
+    
