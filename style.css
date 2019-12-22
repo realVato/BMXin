@@ -37,10 +37,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .slider {
-        height: 100vh !important;
-    }
-
     .slides li .caption {
         text-align: center !important;
         margin-top: 4rem;
@@ -50,4 +46,24 @@
         font-size: 4rem;
     }
 }
-    
+ 
+/* Search */
+
+/* Input style */
+.section-search .input-field input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.section-search .input-field button {
+    display: block;
+    height: 60%;
+    width: 5%;
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
