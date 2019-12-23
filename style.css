@@ -16,7 +16,7 @@
     opacity: 0.4 !important;
 }
 
-/* Right side on main navbar */
+/* Right side on main */
 .flex-items {
     display: flex;
     align-items: center;
@@ -77,4 +77,26 @@
     border-radius: 5px;
     width: 90%;
     margin-top: 1rem;
+}
+
+/* BLOG*/
+.card .img-overlay {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #131729;
+    opacity: 0.3;
+    z-index: 10;
+}
+
+.card .card-title {
+    z-index: 15;
+}
+
+.card .card-action a {
+    text-decoration: underline;
 }
