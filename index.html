@@ -19,20 +19,45 @@
 <body>
     <!-- Navbar -->
     <div class="navbar-fixed">
-        <nav class="white">
+        <nav class="white z-depth-0">
             <div class="container">
                 <div class="navbar-wrapper">
-                    <a href="#" class="brand-logo black-text"><span class="marker-font">BMX</span>in</a>
+                    <!-- Search input -->
+                    <div class="left hide-on-med-and-down">
+                        <form class="input-field">
+                            <i class="material-icons prefix black-text">search</i>
+                            <input type="text" class="nav-input black-text" placeholder="Search">
+                        </form>
+                    </div>
+                    <!-- Centered logo -->
+                    <a href="#" class="brand-logo center black-text"><span class="marker-font">BMX</span>in</a>
+                    <!-- Hamburger on smaller screen -->
                     <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
+                    
+                    <ul class="right">
+                        <li><a href="#" class="black-text flex-items"><i class="material-icons black-text">account_box</i> Account</a></li>
+                        <li><a href="#" class="black-text flex-items"><i class="far fa-heart"></i> Wishlist</a></li>
+                        <li><a href="#" class="black-text flex-items"><i class="material-icons black-text">add_shopping_cart</i> Cart</a></li>
+                    </ul>
+                    <!-- Side Navbar -->
+                    <ul id="nav-mobile" class="sidenav">
                         <li><a href="#home" class="black-text">Home</a></li>
                         <li><a href="#search" class="black-text">Search</a></li>
                         <li><a href="#popular" class="black-text">Popular Bikes</a></li>
                         <li><a href="#gallery" class="black-text">Gallery</a></li>
                         <li><a href="#contact" class="black-text">Contact</a></li>
                     </ul>
-                    <!-- Side Navbar -->
-                    <ul id="nav-mobile" class="sidenav">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navbar section items -->
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav class="grey lighten-4 z-depth-0">
+            <div class="container">
+                <div class="navbar-wrapper">
+                    <ul class="brand-logo center">
                         <li><a href="#home" class="black-text">Home</a></li>
                         <li><a href="#search" class="black-text">Search</a></li>
                         <li><a href="#popular" class="black-text">Popular Bikes</a></li>
