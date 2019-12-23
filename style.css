@@ -16,6 +16,19 @@
     opacity: 0.4 !important;
 }
 
+/* Right side on main navbar */
+.flex-items {
+    display: flex;
+    align-items: center;
+}
+
+/* Wishlist (heart) positioning */
+.far {
+    display: flex !important;
+    align-items: center;
+    margin-right: 3px;
+}
+
 /* Slider */
 
 /* Darker overlay for images */
