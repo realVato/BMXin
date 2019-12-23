@@ -53,21 +53,6 @@
     margin-top: 2rem;
     min-width: 200px;
 }
-
-@media screen and (max-width: 600px) {
-    .slides li .caption {
-        text-align: center !important;
-        margin-top: 4rem;
-    }
-
-    .slides li .caption h3 {
-        font-size: 4rem;
-    }
-
-    .slides li .caption .btn {
-        float: none !important; 
-    }
-}
  
 /* Search */
 
@@ -99,4 +84,28 @@
 
 .card .card-action a {
     text-decoration: underline;
+}
+
+/* Section icons */
+.section-icons .row {
+    background: url('img/city.jpg') no-repeat center/cover;
+}
+
+.section-icons .card-panel {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .slides li .caption {
+        text-align: center !important;
+        margin-top: 4rem;
+    }
+
+    .slides li .caption h3 {
+        font-size: 4rem;
+    }
+
+    .slides li .caption .btn {
+        float: none !important;
+    }
 }
