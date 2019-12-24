@@ -55,6 +55,9 @@
 }
  
 /* Search */
+.section-search h3 {
+    font-family: 'Caveat', cursive;
+}
 
 /* Input style */
 .section-search .input-field input {
@@ -95,6 +98,21 @@
     background-color: transparent;
 }
 
+/* Section gallery */
+.section-gallery h1 {
+    margin: 0 0 3rem 0;
+    font-family: 'Caveat', cursive;
+}
+
+.section-gallery .col {
+    padding: 0;
+}
+
+.section-gallery .card {
+    margin: 0;
+}
+
+/* mquery */
 @media screen and (max-width: 600px) {
     .slides li .caption {
         text-align: center !important;
