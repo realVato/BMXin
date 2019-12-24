@@ -71,3 +71,7 @@ M.Autocomplete.init(autoComplete, {
         'Wethepeople': null,
     }
 });
+
+// Material boxed (img responsive)
+const materialBoxed = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(materialBoxed, {});
