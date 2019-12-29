@@ -32,7 +32,7 @@
 /* Slider */
 
 /* Darker overlay for images */
-.slides li .img-overlay {
+/* .slides li .img-overlay {
     display: block;
     height: 100%;
     width: 100%;
@@ -52,6 +52,31 @@
 .slides li .caption .btn {
     margin-top: 2rem;
     min-width: 200px;
+} */
+
+/* Video */
+.video-player {
+    overflow: hidden;
+    position: relative;
+    max-height: 730px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.video-content {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content {
+    max-width: 430px;
+    text-align: center;
 }
  
 /* Search */
@@ -114,7 +139,7 @@
 
 /* mquery */
 @media screen and (max-width: 600px) {
-    .slides li .caption {
+    /* .slides li .caption {
         text-align: center !important;
         margin-top: 4rem;
     }
@@ -125,5 +150,10 @@
 
     .slides li .caption .btn {
         float: none !important;
-    }
+    } */
+
+   .responsive-video {
+       min-height: 530px !important; 
+       object-fit: cover !important;
+   }
 }
