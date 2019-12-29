@@ -156,4 +156,9 @@
        min-height: 530px !important; 
        object-fit: cover !important;
    }
+
+   .content h2 {
+       font-size: 2rem;
+       max-width: 300px;
+   }
 }
