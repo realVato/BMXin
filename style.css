@@ -1,3 +1,8 @@
+/* body font */
+body {
+    font-family: 'Staatliches', cursive;
+}
+
 /* NAVBAR */
 
 /* Thick marker font for [BMX]in */
@@ -80,9 +85,7 @@
 }
  
 /* Search */
-.section-search h3 {
-    font-family: 'Caveat', cursive;
-}
+
 
 /* Input style */
 .section-search .input-field input {
@@ -126,7 +129,6 @@
 /* Section gallery */
 .section-gallery h1 {
     margin: 0 0 3rem 0;
-    font-family: 'Caveat', cursive;
 }
 
 .section-gallery .col {
@@ -138,8 +140,32 @@
 }
 
 /* Section contact */
-.section-contact h2 {
-    font-family: 'Caveat', cursive;
+
+
+/* Footer */
+footer {
+    background: url('img/footer.jpg') no-repeat center/cover;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+footer .row {
+    margin-bottom: 0;
+}
+
+footer .social-media .fab {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+.footer-copyright i {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+/* remove whitespace from footer bottom */
+#blog {
+    padding: 0; 
 }
 
 /* mquery */
