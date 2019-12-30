@@ -137,6 +137,11 @@
     margin: 0;
 }
 
+/* Section contact */
+.section-contact h2 {
+    font-family: 'Caveat', cursive;
+}
+
 /* mquery */
 @media screen and (max-width: 600px) {
     /* .slides li .caption {
@@ -160,5 +165,9 @@
    .content h2 {
        font-size: 2rem;
        max-width: 300px;
+   }
+
+   h4 {
+       font-size: 1.5rem;
    }
 }
