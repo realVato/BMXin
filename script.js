@@ -66,3 +66,7 @@ M.Autocomplete.init(autoComplete, {
 // Material boxed (img responsive)
 const materialBoxed = document.querySelectorAll('.materialboxed');
 M.Materialbox.init(materialBoxed, {});
+
+// Scroll Spy
+const scrollSpy = document.querySelectorAll('.scrollspy');
+M.ScrollSpy.init(scrollSpy, {});
